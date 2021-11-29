@@ -11,9 +11,8 @@ public class Rabbit4 {
         this.duck = duck;
     }
 
-
     @Override
     public String toString() {
-        return ", в зайце утка " + "";
+        return ", в зайце утка " + duck.toString();
     }
 }
